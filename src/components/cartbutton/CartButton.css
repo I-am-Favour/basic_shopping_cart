@@ -1,0 +1,26 @@
+.cart-button{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cart-side{
+    text-align: center;
+    margin-top: 20px;
+}
+.cart-button span{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 2;
+    background-color: var(--chocolate);
+    color: var(--white);
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

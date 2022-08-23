@@ -1,0 +1,25 @@
+.empty-cart{
+    width: 100%;
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: center;
+}
+.empty-cart-image{
+    margin: 25px 0;
+    color: var(--darkchocolate);
+}
+.empty-cart .button{
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: var(--chocolate);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.empty-cart .button:hover{
+    background-color: var(--darkchocolate);
+    color: black;
+}

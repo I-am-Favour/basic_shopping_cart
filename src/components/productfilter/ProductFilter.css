@@ -1,0 +1,99 @@
+.product-filter{
+    flex: 1;
+    position: sticky;
+    top: 10px;
+}
+.product-filter .search{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--lightshade);
+}
+.section{
+    margin-top: 20px;
+}
+.section h4{
+    margin: 10px 0;
+}
+.category-section button{
+    display: block;
+    color: var(--darkshade);
+    border: none;
+    padding: 2px 0;
+    background: none;
+    margin: 5px 0;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.category-section button.active{
+    border-bottom: 1px solid var(--darkshade);
+}
+.company-section select{
+    background-color: var(--lightshade);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.color-section .btns{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.color-section .all{
+    color: var(--darkshade);
+    border: none;
+    background: none;
+    padding: 2px 0;
+    cursor: pointer;
+    margin-right: 3px;
+    text-transform: capitalize;
+}
+.color-section .all.active{
+    border-bottom: 1px solid var(--darkshade);
+}
+.color-section button:not(.all){
+    padding: 0;
+    border: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-icon{
+    display: none;
+}
+.color-section button:not(.all).active{
+    opacity: 1;
+}
+.color-section button:not(.all).active .btn-icon{
+    display: block;
+}
+.price-section p{
+    margin: 0;
+    font-size: 15px;
+    color: var(--darkshade);
+}
+.price-section input{
+    accent-color: var(--chocolate);
+    margin-top: 7px;
+}
+.shipping-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.clear-btn{
+    margin-top: 20px;
+    background-color: var(--red);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}

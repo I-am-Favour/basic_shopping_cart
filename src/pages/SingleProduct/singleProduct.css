@@ -1,0 +1,35 @@
+.single-products-body {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.single-products-body .back-btn {
+    padding: 7px 15px;
+    border: none;
+    background-color: var(--chocolate);
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.single-products-body .back-btn:hover {
+    background-color: var(--darkchocolate);
+    color: var(--black);
+}
+
+.single-products-content {
+    margin-top: 25px;
+    display: flex;
+    align-items: stretch;
+    gap: 50px;
+    flex-direction: column;
+}
+@media screen and (min-width: 900px) {
+    .single-products-content{
+        flex-direction: row;
+        align-items: center;
+    }
+}

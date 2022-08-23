@@ -1,0 +1,57 @@
+.line-format{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.line-format img{
+    width: 250px;
+    border-radius: 5px;
+    height: 200px;
+    background-color: var(--black);
+}
+.line-format-image{
+    flex: 1;
+}
+.line-format-details{
+    flex: 3;
+}
+.line-format-details h4{
+    margin: 0;
+    text-transform: capitalize;
+}
+.line-format-details .price{
+    color: var(--chocolate);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4px 0 5px 0
+}
+.line-format-details .desc{
+    font-size:  14px;
+    line-height: 20px;
+    color: var(--darkshade);
+    margin: 10px 0;
+}
+.line-format-details .button{
+    padding: 3px 6px;
+    background-color: var(--chocolate);
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.line-format-details .button:hover{
+    background-color: var(--darkchocolate);
+    color: var(--black);
+}
+@media screen and (min-width: 770px) {
+    .line-format{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+}
