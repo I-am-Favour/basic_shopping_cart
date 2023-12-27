@@ -4,4 +4,4 @@ A frontend shopping cart functionality with ReactJS With Functionality such as
   2. Filtering and sorting of products
   3. Adding to cart 🛒 functionality
   4. Deleting products from cart 🛒
-  5. And so much more... 😁😁
+  5. And more...
